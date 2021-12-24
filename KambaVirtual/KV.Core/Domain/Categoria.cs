@@ -3,6 +3,6 @@
     public class Categoria
     {
         public int Id { get; set; }
-        public int Description { get; set; }
+        public int Descricao { get; set; }
     }
 }

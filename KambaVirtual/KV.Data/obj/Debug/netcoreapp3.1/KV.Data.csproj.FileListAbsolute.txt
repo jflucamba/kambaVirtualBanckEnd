@@ -8,3 +8,8 @@ C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.Data\obj\Debug\net
 C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.Data\obj\Debug\netcoreapp3.1\KV.Data.csproj.CoreCompileInputs.cache
 C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.Data\obj\Debug\netcoreapp3.1\KV.Data.dll
 C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.Data\obj\Debug\netcoreapp3.1\KV.Data.pdb
+C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.Data\bin\Debug\netcoreapp3.1\KV.Data.runtimeconfig.json
+C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.Data\bin\Debug\netcoreapp3.1\KV.Data.runtimeconfig.dev.json
+C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.Data\bin\Debug\netcoreapp3.1\KV.Core.dll
+C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.Data\bin\Debug\netcoreapp3.1\KV.Core.pdb
+C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.Data\obj\Debug\netcoreapp3.1\KV.Data.genruntimeconfig.cache
