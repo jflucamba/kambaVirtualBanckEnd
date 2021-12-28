@@ -7,7 +7,6 @@
   <ItemGroup>
     <Folder Include="Configuration\" />
     <Folder Include="Services\" />
-    <Folder Include="Repository\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,6 +22,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\KV.Core\KV.Core.csproj" />
+    <ProjectReference Include="..\KV.Manager\KV.Manager.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1757,6 +1757,7 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "KV.Core": "1.0.0",
+          "KV.Manager": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.12",
           "MySql.Data": "8.0.27",
           "MySql.Data.EntityFrameworkCore": "8.0.22",
@@ -1767,6 +1768,19 @@
         },
         "runtime": {
           "bin/placeholder/KV.Data.dll": {}
+        }
+      },
+      "KV.Manager/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "KV.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/KV.Manager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KV.Manager.dll": {}
         }
       }
     }
@@ -6203,6 +6217,11 @@
       "type": "project",
       "path": "../KV.Data/KV.Data.csproj",
       "msbuildProject": "../KV.Data/KV.Data.csproj"
+    },
+    "KV.Manager/1.0.0": {
+      "type": "project",
+      "path": "../KV.Manager/KV.Manager.csproj",
+      "msbuildProject": "../KV.Manager/KV.Manager.csproj"
     }
   },
   "projectFileDependencyGroups": {

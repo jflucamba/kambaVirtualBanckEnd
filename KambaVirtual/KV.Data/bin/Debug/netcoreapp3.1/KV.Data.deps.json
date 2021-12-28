@@ -9,6 +9,7 @@
       "KV.Data/1.0.0": {
         "dependencies": {
           "KV.Core": "1.0.0",
+          "KV.Manager": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.12",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.12",
           "MySql.Data": "8.0.27",
@@ -451,6 +452,14 @@
         "runtime": {
           "KV.Core.dll": {}
         }
+      },
+      "KV.Manager/1.0.0": {
+        "dependencies": {
+          "KV.Core": "1.0.0"
+        },
+        "runtime": {
+          "KV.Manager.dll": {}
+        }
       }
     }
   },
@@ -755,6 +764,11 @@
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
     "KV.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KV.Manager/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

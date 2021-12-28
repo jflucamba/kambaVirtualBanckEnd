@@ -8,3 +8,6 @@ C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.Manager\obj\Debug\
 C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.Manager\obj\Debug\netcoreapp3.1\KV.Manager.csproj.CoreCompileInputs.cache
 C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.Manager\obj\Debug\netcoreapp3.1\KV.Manager.dll
 C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.Manager\obj\Debug\netcoreapp3.1\KV.Manager.pdb
+C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.Manager\bin\Debug\netcoreapp3.1\KV.Core.dll
+C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.Manager\bin\Debug\netcoreapp3.1\KV.Core.pdb
+C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.Manager\obj\Debug\netcoreapp3.1\KV.Manager.csproj.CopyComplete

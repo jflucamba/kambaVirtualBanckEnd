@@ -552,6 +552,19 @@
         "runtime": {
           "bin/placeholder/KV.Core.dll": {}
         }
+      },
+      "KV.Manager/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "KV.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/KV.Manager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KV.Manager.dll": {}
+        }
       }
     }
   },
@@ -1698,11 +1711,17 @@
       "type": "project",
       "path": "../KV.Core/KV.Core.csproj",
       "msbuildProject": "../KV.Core/KV.Core.csproj"
+    },
+    "KV.Manager/1.0.0": {
+      "type": "project",
+      "path": "../KV.Manager/KV.Manager.csproj",
+      "msbuildProject": "../KV.Manager/KV.Manager.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "KV.Core >= 1.0.0",
+      "KV.Manager >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.12",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.12",
       "MySql.Data >= 8.0.27",
@@ -1747,6 +1766,9 @@
           "projectReferences": {
             "C:\\Users\\HP\\source\\repos\\kambaVirtualBanckEnd\\KambaVirtual\\KV.Core\\KV.Core.csproj": {
               "projectPath": "C:\\Users\\HP\\source\\repos\\kambaVirtualBanckEnd\\KambaVirtual\\KV.Core\\KV.Core.csproj"
+            },
+            "C:\\Users\\HP\\source\\repos\\kambaVirtualBanckEnd\\KambaVirtual\\KV.Manager\\KV.Manager.csproj": {
+              "projectPath": "C:\\Users\\HP\\source\\repos\\kambaVirtualBanckEnd\\KambaVirtual\\KV.Manager\\KV.Manager.csproj"
             }
           }
         }

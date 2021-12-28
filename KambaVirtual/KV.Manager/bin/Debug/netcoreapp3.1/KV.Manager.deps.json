@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "KV.Manager/1.0.0": {
+        "dependencies": {
+          "KV.Core": "1.0.0"
+        },
         "runtime": {
           "KV.Manager.dll": {}
+        }
+      },
+      "KV.Core/1.0.0": {
+        "runtime": {
+          "KV.Core.dll": {}
         }
       }
     }
   },
   "libraries": {
     "KV.Manager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KV.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

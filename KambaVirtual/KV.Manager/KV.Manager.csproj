@@ -4,4 +4,15 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Interfaces\Managers\" />
+    <Folder Include="Interfaces\Services\" />
+    <Folder Include="Mappings\" />
+    <Folder Include="Validator\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KV.Core\KV.Core.csproj" />
+  </ItemGroup>
+
 </Project>
