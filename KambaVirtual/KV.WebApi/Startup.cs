@@ -20,7 +20,10 @@ namespace KV.WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddAutoMapperConfiguration();
             services.AddDataBaseConfiguration(Configuration);
+            services.AddDependencyInjectionConfiguration();
+            services.AddSwaggerConfiguration();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -32,6 +35,8 @@ namespace KV.WebApi
             }
 
             app.UseDataBaseConfiguration();
+
+            app.UseSwaggerConfiguration();
 
             app.UseHttpsRedirection();
 
