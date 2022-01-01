@@ -5,13 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\Managers\" />
     <Folder Include="Interfaces\Services\" />
-    <Folder Include="Mappings\" />
     <Folder Include="Validator\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KV.Core.Shared\KV.Core.Shared.csproj" />
     <ProjectReference Include="..\KV.Core\KV.Core.csproj" />
   </ItemGroup>
 

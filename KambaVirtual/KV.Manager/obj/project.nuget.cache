@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Ze40D3lTuJe6Uo8CfC6iaY64j5GXpuoXp83GHZ6vavJVYhANHe0o3tPDYFCyTKroTzfeYIiMzw5yEAbqYLbOig==",
+  "dgSpecHash": "nOuURHKUDAWhhYJkm92KoeNVUxc/ScjkjWJtENDgwvtFdYnFbSZS7Qf4oLG3Wvk9FEtzBZDievS2qUiSIUKN2g==",
   "success": true,
   "projectFilePath": "C:\\Users\\HP\\source\\repos\\kambaVirtualBanckEnd\\KambaVirtual\\KV.Manager\\KV.Manager.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

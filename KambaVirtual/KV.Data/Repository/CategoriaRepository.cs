@@ -2,9 +2,7 @@
 using KV.Data.Context;
 using KV.Manager.Interfaces.Repositories;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace KV.Data.Repository
@@ -67,6 +65,5 @@ namespace KV.Data.Repository
             await context.SaveChangesAsync();
             return categoriaRemovida.Entity;
         }
-
     }
 }

@@ -1752,6 +1752,16 @@
           "bin/placeholder/KV.Core.dll": {}
         }
       },
+      "KV.Core.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/KV.Core.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KV.Core.Shared.dll": {}
+        }
+      },
       "KV.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -1774,7 +1784,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "KV.Core": "1.0.0"
+          "AutoMapper": "10.1.1",
+          "KV.Core": "1.0.0",
+          "KV.Core.Shared": "1.0.0"
         },
         "compile": {
           "bin/placeholder/KV.Manager.dll": {}
@@ -6212,6 +6224,11 @@
       "type": "project",
       "path": "../KV.Core/KV.Core.csproj",
       "msbuildProject": "../KV.Core/KV.Core.csproj"
+    },
+    "KV.Core.Shared/1.0.0": {
+      "type": "project",
+      "path": "../KV.Core.Shared/KV.Core.Shared.csproj",
+      "msbuildProject": "../KV.Core.Shared/KV.Core.Shared.csproj"
     },
     "KV.Data/1.0.0": {
       "type": "project",
