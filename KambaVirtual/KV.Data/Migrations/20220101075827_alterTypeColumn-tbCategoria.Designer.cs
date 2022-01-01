@@ -2,14 +2,16 @@
 using KV.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace KV.Data.Migrations
 {
     [DbContext(typeof(KvContext))]
-    partial class KvContextModelSnapshot : ModelSnapshot
+    [Migration("20220101075827_alterTypeColumn-tbCategoria")]
+    partial class alterTypeColumntbCategoria
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

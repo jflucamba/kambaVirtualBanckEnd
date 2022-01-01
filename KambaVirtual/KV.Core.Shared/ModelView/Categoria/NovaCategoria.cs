@@ -6,6 +6,6 @@
         /// Nome da categoria
         /// <exemplo> Música </exemplo>
         /// </summary>
-        public int Descricao { get; set; }
+        public string Descricao { get; set; }
     }
 }
