@@ -19,9 +19,9 @@ namespace KV.Manager.Implementation
             this.mapper = mapper;
         }
 
-        public async Task DeleteClienteAsync(int id)
+        public async Task DeleteCategoriaAsync(int id)
         {
-            var categoria = await repository.DeleteClienteAsync(id);
+            var categoria = await repository.DeleteCategoriaAsync(id);
             //return mapper.Map<>
         }
 

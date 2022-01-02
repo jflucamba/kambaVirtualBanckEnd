@@ -55,11 +55,10 @@ namespace KV.Data.Repository
 
             await context.SaveChangesAsync();
             return categoriaConsultada;
-
         }
 
         //Delete
-        public async Task<Categoria> DeleteClienteAsync(int id)
+        public async Task<Categoria> DeleteCategoriaAsync(int id)
         {
             var categoriaConsultada = await context.Categorias.FindAsync(id);
             if (categoriaConsultada == null)

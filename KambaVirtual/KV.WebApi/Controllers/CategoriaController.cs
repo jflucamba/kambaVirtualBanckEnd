@@ -64,7 +64,7 @@ namespace KV.WebApi.Controllers
         [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> Delete(int id)
         {
-            await manager.DeleteClienteAsync(id);
+            await manager.DeleteCategoriaAsync(id);
             return NoContent();
         }
     }

@@ -7,7 +7,7 @@ namespace KV.Manager.Interfaces.Managers
 {
     public interface ICategoriaManager
     {
-        Task DeleteClienteAsync(int id);
+        Task DeleteCategoriaAsync(int id);
 
         Task<Categoria> GetCategoriaAsync(int id);
 
@@ -16,5 +16,6 @@ namespace KV.Manager.Interfaces.Managers
         Task<Categoria> InsertCategoriaAsync(NovaCategoria novaCategoria);
 
         Task<Categoria> UpdateCategoriaAsync(AlterarCategoria categoria);
+
     }
 }

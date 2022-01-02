@@ -7,7 +7,7 @@ namespace KV.Manager.Interfaces.Repositories
 {
     public interface ICategoriaRepository
     {
-        Task<Categoria> DeleteClienteAsync(int id);
+        Task<Categoria> DeleteCategoriaAsync(int id);
 
         Task<Categoria> GetCategoriaAsync(int id);
 
