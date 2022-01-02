@@ -44,7 +44,7 @@ namespace KV.Manager.Implementation
         public async Task<Categoria> UpdateCategoriaAsync(AlterarCategoria alterarCategoria)
         {
             var categoria = mapper.Map<Categoria>(alterarCategoria);
-            return await repository.UpdateCategoriaAsync(categoria);
+            return await repository.UpdateCategoriaAsync(alterarCategoria);
         }
     }
 }

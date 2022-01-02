@@ -1,4 +1,5 @@
 ﻿using KV.Core.Domain;
+using KV.Core.Shared.ModelView.Categoria;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -14,6 +15,6 @@ namespace KV.Manager.Interfaces.Repositories
 
         Task<Categoria> InsertCategoriaAsync(Categoria novaCategoria);
 
-        Task<Categoria> UpdateCategoriaAsync(Categoria categoria);
+        Task<Categoria> UpdateCategoriaAsync(AlterarCategoria categoria);
     }
 }

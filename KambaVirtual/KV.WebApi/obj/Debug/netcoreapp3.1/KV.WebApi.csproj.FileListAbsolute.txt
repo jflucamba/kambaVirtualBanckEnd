@@ -59,7 +59,6 @@ C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.WebApi\bin\Debug\n
 C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.WebApi\bin\Debug\netcoreapp3.1\KV.Data.dll
 C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.WebApi\bin\Debug\netcoreapp3.1\KV.Data.pdb
 C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.WebApi\bin\Debug\netcoreapp3.1\KV.Core.pdb
-C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.WebApi\obj\Debug\netcoreapp3.1\KV.WebApi.csproj.CopyComplete
 C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.WebApi\bin\Debug\netcoreapp3.1\KV.Manager.dll
 C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.WebApi\bin\Debug\netcoreapp3.1\KV.Manager.pdb
 C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.WebApi\obj\Debug\netcoreapp3.1\KV.WebApi.MvcApplicationPartsAssemblyInfo.cs
@@ -69,3 +68,4 @@ C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.WebApi\bin\Debug\n
 C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.WebApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.WebApi\bin\Debug\netcoreapp3.1\KV.Core.Shared.dll
 C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.WebApi\bin\Debug\netcoreapp3.1\KV.Core.Shared.pdb
+C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.WebApi\obj\Debug\netcoreapp3.1\KV.WebApi.csproj.CopyComplete

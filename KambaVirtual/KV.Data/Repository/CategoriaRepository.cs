@@ -1,4 +1,5 @@
 ﻿using KV.Core.Domain;
+using KV.Core.Shared.ModelView.Categoria;
 using KV.Data.Context;
 using KV.Manager.Interfaces.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -36,21 +37,25 @@ namespace KV.Data.Repository
             return novaCategoria;
         }
 
-        public async Task<Categoria> UpdateCategoriaAsync(Categoria categoria)
+        public async Task<Categoria> UpdateCategoriaAsync(AlterarCategoria categoria)
         {
-            var clienteConsultado = await context.Categorias
+            var categoriaConsultada = await context.Categorias
                                                  //.Include(p => p.Endereco)
                                                  //.Include(p => p.Telefones)
-                                                 .FirstOrDefaultAsync(p => p.Id == categoria.Id);
+                                                 .FindAsync(categoria.Id);
             //if (clienteConsultado == null)
             //{
             //    return null;
             //}
-            //context.Entry(clienteConsultado).CurrentValues.SetValues(categoria);
+
+            context.Entry(categoriaConsultada).CurrentValues.SetValues(categoria);
+
             //clienteConsultado.Endereco = categoria.Endereco;
             //UpdateClienteTelefones(categoria, clienteConsultado);
+
             await context.SaveChangesAsync();
-            return clienteConsultado;
+            return categoriaConsultada;
+
         }
 
         //Delete
