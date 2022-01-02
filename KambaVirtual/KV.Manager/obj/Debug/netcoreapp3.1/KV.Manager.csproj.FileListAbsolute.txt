@@ -12,4 +12,3 @@ C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.Manager\bin\Debug\
 C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.Manager\bin\Debug\netcoreapp3.1\KV.Core.pdb
 C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.Manager\bin\Debug\netcoreapp3.1\KV.Core.Shared.dll
 C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.Manager\bin\Debug\netcoreapp3.1\KV.Core.Shared.pdb
-C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.Manager\obj\Debug\netcoreapp3.1\KV.Manager.csproj.CopyComplete

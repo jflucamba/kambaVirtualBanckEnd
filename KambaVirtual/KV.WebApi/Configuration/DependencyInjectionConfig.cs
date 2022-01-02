@@ -12,6 +12,10 @@ namespace KV.WebApi.Configuration
         {
             services.AddScoped<ICategoriaRepository, CategoriaRepository>();
             services.AddScoped<ICategoriaManager, CategoriaManager>();
+
+            services.AddScoped<ISubCategoriaRepository, SubCategoriaRepository>();
+            services.AddScoped<ISubCategoriaManager, SubCategoriaManager>();
+
         }
     }
 }

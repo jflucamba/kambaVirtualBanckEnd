@@ -9,7 +9,10 @@ namespace KV.WebApi.Configuration
         {
             services.AddAutoMapper(
                 typeof(NovaCategoriaMappingProfile),
-                typeof(AlterarCategoriaMappingProfile));
+                typeof(AlterarCategoriaMappingProfile),
+
+                typeof(NovaSubCategoriaMappingProfile),
+                typeof(AlterarSubCategoriaMappingProfile));
         }
     }
 }
