@@ -7,6 +7,7 @@ namespace KV.Data.Context
     {
         public DbSet<Categoria> Categorias { get; set; }
         public DbSet<SubCategoria> SubCategorias { get; set; }
+        public DbSet<Autor> Autores { get; set; }
 
         public KvContext(DbContextOptions options) : base(options)
         {

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace KV.Core.Domain
+﻿namespace KV.Core.Domain
 {
     public class Autor
     {
