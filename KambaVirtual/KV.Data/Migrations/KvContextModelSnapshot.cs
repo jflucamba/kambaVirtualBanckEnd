@@ -16,6 +16,20 @@ namespace KV.Data.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 64)
                 .HasAnnotation("ProductVersion", "5.0.12");
 
+            modelBuilder.Entity("KV.Core.Domain.Autor", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("Nome")
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Autores");
+                });
+
             modelBuilder.Entity("KV.Core.Domain.Categoria", b =>
                 {
                     b.Property<int>("Id")

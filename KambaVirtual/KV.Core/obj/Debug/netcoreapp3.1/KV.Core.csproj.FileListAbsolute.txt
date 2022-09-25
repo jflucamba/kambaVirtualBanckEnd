@@ -1,0 +1,10 @@
+C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.Core\bin\Debug\netcoreapp3.1\KV.Core.deps.json
+C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.Core\bin\Debug\netcoreapp3.1\KV.Core.dll
+C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.Core\bin\Debug\netcoreapp3.1\KV.Core.pdb
+C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.Core\obj\Debug\netcoreapp3.1\KV.Core.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.Core\obj\Debug\netcoreapp3.1\KV.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.Core\obj\Debug\netcoreapp3.1\KV.Core.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.Core\obj\Debug\netcoreapp3.1\KV.Core.AssemblyInfo.cs
+C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.Core\obj\Debug\netcoreapp3.1\KV.Core.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.Core\obj\Debug\netcoreapp3.1\KV.Core.dll
+C:\Users\HP\source\repos\kambaVirtualBanckEnd\KambaVirtual\KV.Core\obj\Debug\netcoreapp3.1\KV.Core.pdb
