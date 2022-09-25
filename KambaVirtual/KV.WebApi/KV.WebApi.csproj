@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\KV.Data\KV.Data.csproj" />
+    <ProjectReference Include="..\KV.Manager\KV.Manager.csproj" />
   </ItemGroup>
 
 

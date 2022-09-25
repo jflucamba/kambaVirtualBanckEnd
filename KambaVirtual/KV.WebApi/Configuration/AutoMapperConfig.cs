@@ -12,7 +12,11 @@ namespace KV.WebApi.Configuration
                 typeof(AlterarCategoriaMappingProfile),
 
                 typeof(NovaSubCategoriaMappingProfile),
-                typeof(AlterarSubCategoriaMappingProfile));
+                typeof(AlterarSubCategoriaMappingProfile),
+
+                typeof(NovoAutorMappingProfile),
+                typeof(AlterarAutorMappingProfile));
+
         }
     }
 }
