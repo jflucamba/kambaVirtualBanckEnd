@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 
 namespace KV.WebApi.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class AutorController : ControllerBase
     {
         private readonly IAutorManager manager;
