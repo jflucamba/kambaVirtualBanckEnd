@@ -60,5 +60,6 @@ namespace KV.Data.Repository
             await context.SaveChangesAsync();
             return autorRemovido.Entity;
         }
+
     }
 }
